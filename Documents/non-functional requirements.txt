@@ -1,0 +1,6 @@
+Desktop application
+System: Windows 10
+Interface language: English
+Design: static
+DB: PostgreSQL
+Password hashing
