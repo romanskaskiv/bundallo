@@ -1,0 +1,6 @@
+/Users/rskaskiv/Desktop/bundallo/bundallo/bundallo/bin/Debug/bundallo.exe
+/Users/rskaskiv/Desktop/bundallo/bundallo/bundallo/bin/Debug/bundallo.pdb
+/Users/rskaskiv/Desktop/bundallo/bundallo/bundallo/obj/Debug/bundallo.csproj.AssemblyReference.cache
+/Users/rskaskiv/Desktop/bundallo/bundallo/bundallo/obj/Debug/bundallo.csproj.CoreCompileInputs.cache
+/Users/rskaskiv/Desktop/bundallo/bundallo/bundallo/obj/Debug/bundallo.exe
+/Users/rskaskiv/Desktop/bundallo/bundallo/bundallo/obj/Debug/bundallo.pdb
