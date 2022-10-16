@@ -1,17 +1,29 @@
-﻿using System.Data.SqlClient;
+﻿using System;
+using Npgsql;
 
 namespace bundallo
 {
     internal class Program
     {
-        const string ConnectionString="Data Source=localhost;Initial Catalog=BundalloDB;User ID=postgres;Password=postgres";
+        const string connectionString = "Host=localhost;" +
+                                        "Username=postgres;" +
+                                        "Password=postgres;" +
+                                        "Database=BundalloDB";
+
+        private const string query = "SELECT * FROM users";
+        
         static void Main(string[] args)
         {
-            var connection = new SqlConnection(ConnectionString);
+            var connection = new NpgsqlConnection(connectionString);
             connection.Open();
-            var command = connection.CreateCommand();
-            command.CommandText = "select * from users";
-            command.ExecuteReader();
+            var command = new NpgsqlCommand(query, connection);
+            
+            var dr = command.ExecuteReader();
+
+            Console.WriteLine(dr);
+            connection.Close();
+            
+            
         }
     }
 }
