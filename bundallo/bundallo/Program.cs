@@ -12,16 +12,23 @@ namespace bundallo
                                         "Password=postgres;" +
                                         "Database=BundalloDB";
 
-        private const string query = "SELECT * FROM public.users LIMIT 2";
+        private const string query1 = "SELECT * FROM public.users LIMIT 2";
+
+        private static void InsertData()
+        {
+            //var query2 = "INSERT INTO ";
+        }
+        
         
         static void Main(string[] args)
         {
             var connection = new NpgsqlConnection(connectionString);
             connection.Open();
-            var nickname="";
-            var cmd = new NpgsqlCommand(query, connection);
+            var cmd = new NpgsqlCommand(query1, connection);
 
             var users = new List<User>();
+            var schedules = new List<Schedule>();
+            var bookings = new List<Booking>();
             using (var reader = cmd.ExecuteReader())
             {
                 var i = 0;
@@ -34,6 +41,7 @@ namespace bundallo
                         reader.GetString(reader.GetOrdinal("lastname")),
                         reader.GetString(reader.GetOrdinal("password"))
                     );
+
                     users.Add(user);
                     i++;
                 }
