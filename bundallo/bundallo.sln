@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bundallo", "bundallo\bundallo.csproj", "{B77D6650-6E28-4044-88A4-4D7D4A106BE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{393C2BA6-DCC3-4C91-B61F-9ABC40DBCA8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B77D6650-6E28-4044-88A4-4D7D4A106BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B77D6650-6E28-4044-88A4-4D7D4A106BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B77D6650-6E28-4044-88A4-4D7D4A106BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B77D6650-6E28-4044-88A4-4D7D4A106BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393C2BA6-DCC3-4C91-B61F-9ABC40DBCA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393C2BA6-DCC3-4C91-B61F-9ABC40DBCA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393C2BA6-DCC3-4C91-B61F-9ABC40DBCA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393C2BA6-DCC3-4C91-B61F-9ABC40DBCA8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

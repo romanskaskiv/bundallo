@@ -1,7 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace bundallo
 {
     public class User
     {
+        [Key]
         public string Nickname;
         public bool IsAdmin;
         public string FirstName;
